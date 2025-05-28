@@ -3,6 +3,7 @@ FROM ghcr.io/developmentseed/titiler:latest
 # Optional: Set CORS options (defaults to "*", so only needed if customizing)
 ENV TITILER_API_CORS_ORIGINS=*
 ENV TITILER_API_CORS_ALLOW_METHODS=GET,POST,OPTIONS
+ENV TITILER_API_ROOT_PATH=""
 
 EXPOSE 7860
 
