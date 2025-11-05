@@ -25,3 +25,5 @@ To run the image:
 ```bash
 docker run --platform=linux/amd64 -p 7860:7860 --rm -it giswqs/titiler-endpoint
 ```
+
+Hugging Face: https://huggingface.co/spaces/giswqs/titiler-endpoint
